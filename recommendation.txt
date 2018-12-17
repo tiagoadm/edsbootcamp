@@ -1,0 +1,5 @@
+Our beer recommentation model
+We use a collaborative filtering (customer_id, material_id converted to integers) system based on the Alterating Least Squares method.
+Since we don't have a "rating" in the data provided to us, we use the proportion of C&S beers sold over the total volume, we then multiply by 10 and round to no decimal cases, thus obtainind a 0-10 rating grid.
+We used two different measures for prediction accuracy: RMSE and MSE.
+The predictions obtained are then joined with original data and exported to a hive table for further exploration in Power BI

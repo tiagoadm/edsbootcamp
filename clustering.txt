@@ -1,0 +1,15 @@
+Our approach towards Clustering
+We used the K-Means model, which is computationally quite simple and generates satisfactory results
+
+We obtained models for several 2D approaches:
+-Customer sales
+--Special beers sales by volume | Number of special beers sold
+--Number of special beer sold in proportion of the total | Volume of special beers sold in proportion of the total
+-Sales representatives
+--Special beers sales by volume | Number of special beers sold
+--Number of special beer sold in proportion of the total | Volume of special beers sold in proportion of the total
+-Customer geolocation
+--Number of customers in 1km /10 km radius | Volume of special beers sold
+
+To obtain the best number of clusters, we tested the information cost for several k-means on smaller samples
+To further explore insights about obtained clusters, we put the data in hive tables for each concern of the clustering analysis
