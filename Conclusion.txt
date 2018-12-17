@@ -1,0 +1,11 @@
+Conclusion
+The possibility of working with fresh IoT data is one of the most interesting fields in analytics.
+This includes the possibility of having near-realtime insights on data.
+Nowadays, cloud providers have fully integrated and secure ecosystems to work, but the number of solutions and the cost must be well calculated in function of the business needs.
+We opted for a fairly simple architecture, that provides a solid basis for developers to build a front-end application and allows a quick time-to-market.
+On the data science side, Azure Databricks and Power BI turned to be a powerful combination to quickly extract insights from data and even make recommendations on it.
+The data that we got had some gaps, but it was interesting to foresee a lot of applications.
+As we expected to get fresher data, it will become possible to apply other algorithms, such as:
+-time series algorithms on shorter periods of time
+-better collaborative filtering
+-more meaningful clustering analysis
